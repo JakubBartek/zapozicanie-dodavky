@@ -23,7 +23,7 @@ const vansData = [
   {
     name: 'Renault Master',
     subtitle: '2.3 dCi 110k Minibus',
-    price: '46,00',
+    price: '43,00',
     tags: [
       'Manuál',
       '110 koní / 81 kW',
@@ -271,7 +271,6 @@ export default function Home() {
                       <span className='text-blue-300 text-xl font-bold'>
                         {van.price} €
                       </span>
-                      <span className='text-blue-200 text-xs'>/ deň</span>
                     </div>
                   </div>
                   <Button
