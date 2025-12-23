@@ -75,7 +75,7 @@ export default function Contact() {
                 <div className='flex items-center gap-4 text-blue-100'>
                   <Mail className='w-6 h-6 md:w-8 md:h-8' />
                   <span className='text-xl md:text-2xl font-medium'>
-                    amilen@amilen.sk
+                    kurtisova@gmail.com
                   </span>
                 </div>
               </div>
@@ -84,11 +84,7 @@ export default function Contact() {
             {/* Right Column - Form */}
             <div>
               <form className='space-y-4' onSubmit={handleSubmit}>
-                <input
-                  type='hidden'
-                  name='access_key'
-                  value='YOUR_WEB3FORMS_ACCESS_KEY'
-                />
+                <input type='hidden' name='access_key' value='119801' />
                 <input
                   type='hidden'
                   name='subject'
